@@ -13,6 +13,9 @@ class Achievements {
 	public static var achievementsStuff:Array<Dynamic> = [ //Name, Description, Achievement save tag, Hidden achievement
 		["Freaky on a Friday Night",	"Play on a Friday... Night.",						'friday_night_play',	 true],
 		["She Calls Me Daddy Too",		"Beat Week 1 on Hard with no Misses.",				'week1_nomiss',			false],
+				["Good!",		"Beat Week C.",				'weekC',			false],
+						["You Beated Week C part 3!!",		"Beat Week C part 3.",				'weekCpt3',			false],
+								["AAA!!!! FREDDY FAZBEAR",		"Beat Golden Freddy.",				'freddy',			false],
 		["No More Tricks",				"Beat Week 2 on Hard with no Misses.",				'week2_nomiss',			false],
 		["Call Me The Hitman",			"Beat Week 3 on Hard with no Misses.",				'week3_nomiss',			false],
 		["Lady Killer",					"Beat Week 4 on Hard with no Misses.",				'week4_nomiss',			false],

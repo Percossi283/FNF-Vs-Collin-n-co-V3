@@ -5345,6 +5345,16 @@ class PlayState extends MusicBeatState
 							unlock = true;
 						}
 				}
+				case 'Good!':
+						if(Paths.formatToSongPath(SONG.song) == 'anarchy' && !usedPractice) {
+							unlock = true;
+						}
+				}
+				case 'You Beated Week C part 3!!':
+						if(Paths.formatToSongPath(SONG.song) == 'tag-team' && !usedPractice) {
+							unlock = true;
+						}
+				}
 
 				if(unlock) {
 					Achievements.unlockAchievement(achievementName);
